@@ -1,0 +1,45 @@
+// Bmobile Software Prebuilt Apps
+
+android_app_import {
+    name: "DailyYou",
+    apk: "dailyyou/com.demizo.daily_you_20120012.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "ESpeak",
+    apk: "espeak/com.reecedunn.espeak_22.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "NativeAlpha",
+    apk: "nativeAlpha/NativeAlpha-extendedGithub-universal-release-v1.5.2.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "Recorder",
+    apk: "recorder/recordyou.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
